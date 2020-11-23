@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kino qidirish</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-info text-white">
+
+  <div class="container">
+    <h1 class="h2 text-center mt-3">Marhamat kino nomini yozing va qidiring.</h1>
+
+    <form class="search-movies-form d-flex mt-3" action="https://echo.htmlacademy.ru">
+      <input type="text" class="search-movies-input form-control col-md-7" placeholder="Kino nomini kiriting :)">
+      <button class="btn btn-primary flex-grow-1 ml-5">Kinoni qidirish</button>
+    </form>
+
+    <div class="reolad-list list-group text-dark my-5"></div>
+    
+  </div>
+
+
+
+  <template id="movies_card_template">
+    <div class="movies-box list-group-item">
+        <div class="movies-name h5">Movie name :</div>
+    </div>
+  </template>
+
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/movies.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
